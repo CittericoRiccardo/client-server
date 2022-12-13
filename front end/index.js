@@ -10,5 +10,5 @@ document.getElementById("btn1").addEventListener("click", function () {
     data: { name: "John", location: "Boston" },
   }).done(function (msg) {
     document.getElementById("testo").innerHTML = "risultato" + msg;
-  });
+  }); arguments 
 });
